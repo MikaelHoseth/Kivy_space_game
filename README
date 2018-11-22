@@ -1,4 +1,6 @@
 README
+Hello, i am newbie when it comes to coding games.
+
 This is some casual code i thought i'd share, maybe someone that is stuck will learn, 
 or someone that knows much will teach me what i've done wrong.
 i am new to github at the moment, so if someone has any ideas to what i could be doing better just tell.
@@ -6,3 +8,6 @@ i am new to github at the moment, so if someone has any ideas to what i could be
 It the start of a funny little casual spacegame written in python 3.7 using Kivy library, version 1.10.1.
 
 The main python file is called "Element_madness.py"
+
+
+Greetings, MikaelHoseth.
