@@ -25,9 +25,6 @@ class Spaceship(Widget):
 		self.change_x = 0
 		self.change_y = 0
 		self.angle = 0
-
-		#Creating spaceship, of widget type 'Scatter' which alowes for rotation
-		#self.ship = Scatter(do_scale = False, size=self.size, pos=self.pos)
 		
 		
 		#body of ship is an image
