@@ -45,11 +45,9 @@ class LazerBullet(Widget):
 		self.floatpos_y = ship_y
 		self.floatpos_x = ship_x
 		
-		x_diff, y_diff = mouse_x - ship_x, mouse_y - ship_y
+		x_diff, y_diff = mouse_x - ship_x, mouse_y - ship_y	
 
-		angle = (180 / math.pi) * -math.atan2(y_diff, x_diff)	
-
-		direct_distance = math.sqrt(((mouse_y - ship_y)**2) + ((mouse_x - ship_x)**2))
+		direct_distance = math.sqrt(((y_diff)**2) + ((x_diff)**2))
 
 		if self.traveling:
 			pass
